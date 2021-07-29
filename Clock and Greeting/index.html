@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock and Greetings</title>
+    <style>
+        *{
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body style="background-color: darkslategrey;">
+    <div>
+        <br><br><br><br>
+      <div style="color:rgb(212,175,55); font-size: 40px;padding:60px; font-family: monospace;">
+        Hello, <strong><span id="myName"></span></strong>!
+      </div>
+      <div id="myClock" onload="showTime()" style="color:white; font-size: 60px;padding:10px; font-family: monospace;"></div>
+      <div style="color:rgb(212,175,55); font-size: 30px;padding:40px; font-family: monospace; ">
+        Right now, you are viewing the first JavaScript project I made for
+        the Kodluyoruz Front-end web development course
+      </div>
+    </div>
+    <script src="clock.js"></script>
+  </body>
+</html>
